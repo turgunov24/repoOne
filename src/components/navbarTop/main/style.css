@@ -18,6 +18,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    border: 1px solid white;
 
 }
 .searchDiv label{
@@ -39,5 +40,11 @@
     border: none;
     outline: none;
     color: #ABBBC2;
-    font-size: 14px;
+    font-size: 14px ;
+}
+.tableDiv{
+    border: 1px solid white;
+    width: 100%;
+    padding: 20px 5px;
+
 }

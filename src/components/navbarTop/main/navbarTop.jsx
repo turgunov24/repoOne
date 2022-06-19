@@ -1,8 +1,17 @@
 import React from "react";
 import "./style.css";
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
+import Foods from "./../assets/objectdata"
 
 export const NavbarTop = () => {
+    let allCategories = []
+    Foods.map((food)=>{
+        allCategories.push(food.foodType)
+    })
+    let settedCategories = new Set(allCategories)
+    let categories = [...settedCategories]
+    console.log(categories);
+    
   return (
     <>
       <div className="navbarTop">
@@ -16,7 +25,9 @@ export const NavbarTop = () => {
             <input type="text" placeholder="Search for food, coffe, etc.." />
           </label>
         </div>
-        <div className="tableDiv">navbarTop</div>
+        <ul className="tableDiv">
+            
+        </ul>
       </div>
     </>
   );
