@@ -1,0 +1,22 @@
+.navbarTop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 200px;
+}
+
+.searchDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
