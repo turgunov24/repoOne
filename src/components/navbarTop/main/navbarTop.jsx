@@ -13,7 +13,7 @@ export const NavbarTop = () => {
                     <input type="text" placeholder='Search for food, coffe, etc..' />
                 </div>
                 <div className="tableDiv">
-                asda
+                navbarTop
                 
                 </div>
             </div>
