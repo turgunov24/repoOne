@@ -1,6 +1,6 @@
 import './App.css';
-import { NavbarLeft } from './navbarLeft/main/navbarLeft';
-import { NavbarTop } from './navbarTop/main/navbarTop';
+import { NavbarLeft } from './components/navbarLeft/main/navbarLeft';
+import { NavbarTop } from './components/navbarTop/main/navbarTop';
 
 export default function App() {
   return (
