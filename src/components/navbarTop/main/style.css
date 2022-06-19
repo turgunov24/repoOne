@@ -20,3 +20,24 @@
     justify-content: space-between;
 
 }
+.searchDiv label{
+    width: max-content;
+    position: relative;
+}
+.searchDiv label span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: white;
+}
+.searchDiv label input{
+    padding: 14px 20px;
+    padding-left: 40px;
+    background-color: #2D303E;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #ABBBC2;
+    font-size: 14px;
+}
