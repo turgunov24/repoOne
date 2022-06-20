@@ -11,7 +11,12 @@ function NavbarRight() {
           <div className="NavbarRightButtons">
             <Button className="NavbarRightTopButton" variant="contained">Dine In</Button>
             <Button className="NavbarRightTopButton" variant="outlined">To Go</Button>
-            <Button className="NavbarRightTopButton" variant="outlined">Delivery</Button>
+            <Button className="NavbarRightTopButton" variant="outlined">Deli</Button>
+          </div>
+          <div className="Prices">
+            <span>Item</span>
+            <span>num</span>
+            <span>price</span>
           </div>
         </div>
         <div className="Payment"></div>
