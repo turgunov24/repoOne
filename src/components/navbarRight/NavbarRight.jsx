@@ -1,10 +1,22 @@
-import React from 'react';
-import './style.css'
+import React from "react";
+import "./style.css";
+import Button from "@mui/material/Button";
+
 function NavbarRight() {
   return (
-    <div className='NavbarRight'>
-        <h1>NavabrRight</h1>
-    </div>
+    <>
+      <div className="NavbarRight">
+        <div className="Orders">
+          <h3>Orders #34562</h3>
+          <div className="NavbarRightButtons">
+            <Button className="NavbarRightTopButton" variant="contained">Dine In</Button>
+            <Button className="NavbarRightTopButton" variant="outlined">To Go</Button>
+            <Button className="NavbarRightTopButton" variant="outlined">Delivery</Button>
+          </div>
+        </div>
+        <div className="Payment"></div>
+      </div>
+    </>
   );
 }
 
