@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import Foods from "./../assets/objectdata"
+import LabTabs from "../assets/Tabs/Tabs";
 
 export const NavbarTop = () => {
     let allCategories = []
@@ -25,9 +26,7 @@ export const NavbarTop = () => {
             <input type="text" placeholder="Search for food, coffe, etc.." />
           </label>
         </div>
-        <ul className="tableDiv">
-            
-        </ul>
+        <LabTabs />
       </div>
     </>
   );
