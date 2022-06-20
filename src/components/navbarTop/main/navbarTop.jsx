@@ -26,8 +26,9 @@ export const NavbarTop = () => {
             <input type="text" placeholder="Search for food, coffe, etc.." />
           </label>
         </div>
+        <Tablar/>
       </div>
-      <Tablar/>
+      
     </>
   );
 };
