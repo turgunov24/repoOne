@@ -9,6 +9,7 @@
     background-color: #1F1D2B;
 }
 .Orders{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -29,7 +30,8 @@
     margin-top: 20px;
 }
 .NavbarRightTopButton{
-    font-size: 12px !important;
+    font-size: 10px !important;
+    font-weight: 550 !important;
     margin-left: 10px !important;
     color: #EA7C69 !important;
     border: 1px solid #EA7C69 !important;
@@ -43,14 +45,61 @@
     margin-left: 0px !important;
 }
 .Prices{
-    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 100%;
     padding: 10px 0px;
+    padding-bottom: 25px;
     margin-top: 10px;
     color: white;
     font-size: 15px;
+    border-bottom: 2px solid #393C49;
 
 }
-.Prices span:nth-child(2){
-    margin-left: 30px;
+.ordersAbsoluteDiv{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 160px;
+    padding: 2px 20px;
+    border-top: 1px solid #393C49;
+}
+.discount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+    font-weight: 550;
+}
+.subTotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+    font-weight: 550;
+
+}
+.discount>span:nth-child(1){
+    color: #393C49;
+}
+.subTotal>span:nth-child(1){
+    color: #393C49;
+}
+.NavbarRightBottomButton{
+    font-size: 12px !important;
+    font-weight: 550 !important;
+    margin-top: 10px !important;
+    color: white !important;
+    padding: 10px 0px !important;
+    background-color: #EA7C69 !important;
 }

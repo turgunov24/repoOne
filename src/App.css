@@ -6,6 +6,7 @@
     list-style: none;
     font-family: 'Barlow', sans-serif;
     user-select: none;
+    text-transform: capitalize !important;
 }
 body{
     background-color: #252836;

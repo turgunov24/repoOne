@@ -95,7 +95,7 @@
 }
 .navbar ul li:hover{
     background-color: #252836;
-    transform: translateX(7px);
+    transform: translateX(5px);
 }
 
 .navbar ul li:hover a{

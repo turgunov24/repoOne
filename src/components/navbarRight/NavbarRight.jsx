@@ -15,8 +15,19 @@ function NavbarRight() {
           </div>
           <div className="Prices">
             <span>Item</span>
-            <span>num</span>
-            <span>price</span>
+            <span>Qty</span>
+            <span>Price</span>
+          </div>
+          <div className="ordersAbsoluteDiv">
+            <div className="discount">
+              <span>discount</span>
+              <span>$0</span>
+            </div>
+            <div className="subTotal">
+              <span>sub total</span>
+              <span>$21.03</span>
+            </div>
+            <Button fullWidth className="NavbarRightBottomButton">Continue to Payment</Button>
           </div>
         </div>
         <div className="Payment"></div>

@@ -7,7 +7,7 @@ function Tablar() {
   return (
     <>
         <AppBar className='appbar' position='static'>
-            <Tabs textColor='white'>
+            <Tabs textColor='grey'>
                 <Tab className='Tab1' label='Hot Dishes' />
                 <Tab className='Tab1' label='Cold Dishes' />
                 <Tab className='Tab1' label='Soup' />

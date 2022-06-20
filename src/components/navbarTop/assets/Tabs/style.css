@@ -1,10 +1,13 @@
 .appbar{
     background-color: #252836 !important;
-    border: none !important;
+
+}
+.Tab1{
+    font-weight: 550 !important;
 }
 
-
 .Tab1:active{
-    color: #EA7C69;
-    border-bottom: 1px solid #EA7C69;
+
+    color: #EA7C69 !important;
+    border-bottom: 1px solid #EA7C69 !important;
 }
