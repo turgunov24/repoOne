@@ -1,8 +1,45 @@
 .NavbarRight{
-    width: 300px;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    top: 0;
+    width: max-content;
     height: 100vh;
     display: flex;
+    justify-content: end;
+    background-color: #1F1D2B;
+}
+.Orders{
+    display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    border: 1px solid red;
+    align-items: flex-start;
+    justify-content: start;
+    width: 350px;
+    height: 100vh;
+    padding: 35px 20px;
+}
+.Orders h3{
+    color: white;
+}
+.NavbarRightButtons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+.NavbarRightTopButton{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #EA7C69;
+    border: 1px solid #EA7C69;
+}
+.NavbarRightTopButton:hover{
+    border: 1px solid #EA7C69;
+}
+.NavbarRightTopButton:nth-child(1){
+    background-color: #EA7C69;
+    color: white;
+    margin-left: 0px;
 }
