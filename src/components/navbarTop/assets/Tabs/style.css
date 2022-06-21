@@ -11,3 +11,9 @@
     color: #EA7C69 !important;
     border-bottom: 1px solid #EA7C69 !important;
 }
+.foodWrapper{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
