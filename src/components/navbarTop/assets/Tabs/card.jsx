@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import "./card.css"
+import { Translate } from '@mui/icons-material';
 
 export default function MultiActionAreaCard(props) {
     let title = props.title
@@ -12,13 +13,12 @@ export default function MultiActionAreaCard(props) {
     let price = props.price
   return (
     <Card sx={{ maxWidth: 270 , minHeight: 300, textAlign: 'center',  bgcolor:'#1F1D2B',color:'#fff' , marginTop:'60px' ,position:'relative' }}>
-      <CardActionArea>
         <CardMedia
           component="img"
           height="140"
           image={`${image}`}    
           alt="green iguana"
-          sx={{position:'absolute', left:"50%" , top:"-20%", zIndex:100 , width:"100%", objectFit:"contain", borderRadius:"50%"}}
+          className='cardMedia'
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" sx={{textAlign: 'start', fontSize: 20}}>
@@ -28,7 +28,6 @@ export default function MultiActionAreaCard(props) {
             $ {price}
           </Typography>
         </CardContent>
-      </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
           Share
