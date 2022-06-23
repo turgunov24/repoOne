@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .card{
     width: 170px;
     height: 220px;
@@ -22,4 +23,11 @@ img{
 }
 .bottom{
     top: 0;
+=======
+.cardMedia{
+    background-color: #fff;
+}
+.cardMedia img{
+    border-radius: 50%;
+>>>>>>> b7b17669a746136b687171b9f48be093d1c01d18
 }
