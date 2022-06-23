@@ -8,6 +8,14 @@ const Foods = [
     foodType: "hot-dishes",
   },
   {
+    id: 1,
+    title: "Andijon oshi",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjzrDsR5HUN4agrYuaA2fvW1I7N3oMMo_8mA&usqp=CAU",
+    money: 2.3,
+    theRest: 15,
+    foodType: "grill",
+  },
+  {
     id: 2,
     title: "Salted Pasta with mushroom sauce",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZK5T381WkkcEViQk_wGo-QxLrMpqWrRts1g&usqp=CAU",

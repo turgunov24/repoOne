@@ -1,0 +1,25 @@
+.card{
+    width: 170px;
+    height: 220px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+    position: relative;
+    top: 30px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    object-fit: cover;
+    top: -15%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+.bottom{
+    top: 0;
+}

@@ -1,17 +1,10 @@
 import React from "react";
 import "./style.css";
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import Foods from "./../assets/objectdata"
 import Tablar from "../assets/Tabs/Tabs";
 
 export const NavbarTop = () => {
-    let allCategories = []
-    Foods.map((food)=>{
-        allCategories.push(food.foodType)
-    })
-    let settedCategories = new Set(allCategories)
-    let categories = [...settedCategories]
-    console.log(categories);
+
     
   return (
     <>
