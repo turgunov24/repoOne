@@ -103,3 +103,79 @@
     padding: 10px 0px !important;
     background-color: #EA7C69 !important;
 }
+
+
+.rightCard{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.car img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.car{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.title{
+    margin-left: 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+.title p{
+    font-size: 10px;
+}
+.count{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin-left: 30px;
+}
+.count h1{
+    margin-right: 10px;
+}
+.count h4{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.pas{
+    display: flex;
+}
+.pas input{
+    width: 230px;
+    height: 30px;
+    padding: 10px 30px;
+    padding-left: 20px;
+    background-color: #2D303E;
+    border-radius: 8px;
+    border: 1px solid #393C49;
+    outline: none;
+    color: #ABBBC2;
+    font-size: 14px ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pas img{
+    width: 30px;
+    height: 30px;
+    position: inherit;
+    margin-left: 20px;
+    margin-top: 8px;
+    border-radius: 0;
+    object-fit: contain;
+}
+
+.scrollDiv{
+    overflow-y: scroll;
+}

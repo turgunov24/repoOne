@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.card{
+.card {
     width: 170px;
     height: 220px;
     border: 1px solid red;
@@ -8,7 +7,7 @@
     justify-content: flex-end;
     gap: 15px;
     position: relative;
-    top: 30px;
+    margin-top: 50px;
 }
 
 img{
@@ -21,13 +20,15 @@ img{
     border-radius: 50%;
     transform: translateX(-50%);
 }
+
+
 .bottom{
-    top: 0;
-=======
-.cardMedia{
-    background-color: #fff;
-}
-.cardMedia img{
-    border-radius: 50%;
->>>>>>> b7b17669a746136b687171b9f48be093d1c01d18
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    flex-direction: column;
+    color: aliceblue;
 }
